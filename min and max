@@ -1,1 +1,7 @@
-
+n=int(input())
+a = list(map(int,input().split()))
+ma = max(a)
+mi = min(a)
+l1 = a.index(ma)
+l2 = a.index(mi)
+print(l2+1,l1+1)
